@@ -13,3 +13,9 @@ dotnet run
 ```
 
 Uygulama https://localhost:44338 adresinde açılır. Yönergeler açılış sayfasındadır.
+
+Tarayıcı sertifika uyarısı verirse geliştirme sertifikasını bir kez onaylayın:
+
+```
+dotnet dev-certs https --trust
+```
