@@ -1,0 +1,41 @@
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bilmed Cadet Test</title>
+    <style>
+        body { font-family: Segoe UI, Arial, sans-serif; max-width: 860px; margin: 40px auto; padding: 0 16px; line-height: 1.6; color: #222; }
+        h1 { text-align: center; }
+        code { background: #f2f2f2; padding: 1px 4px; border-radius: 3px; }
+    </style>
+</head>
+<body>
+    <h1>Hoşgeldiniz!</h1>
+    <p>Bu uygulama üzerinde yer alan API servislerini kullanarak bir ekran oluşturmanız beklenmektedir.</p>
+    <p>API servisleri dokümanına <a href="/swagger" target="_blank">/swagger</a> adresinden ulaşabilirsiniz.</p>
+
+    <p>Düzenleyeceğiniz ekran <a href="/frontend.html" target="_blank">/frontend.html</a>. Çalışma dosyası <code>/wwwroot/frontend.html</code>.</p>
+    <p>
+        Bu ekranda Consents metodu ile okuyacağınız kayıtları bir HTML tabloya yazmanız beklenmektedir. Veritabanı tablosunda 1000 adet kayıt mevcuttur.
+        Consents metodu ile 10 kayıt okuyunuz, ekranda tabloya yazınız; sonrasında ekrandaki tabloya bir satır ekleyip Recipient alanına saati yazınız ve bir sonraki 10'lu paketi okuyunuz. Bu döngüyü tüm kayıtlar tamamlanıncaya kadar sürdürünüz.
+        Ekranda oluşacak tabloda Id'si en küçük olan kayıtlar tablonun en altında yer almalıdır.
+    </p>
+    <p>
+        2. faz olarak ise, geliştiricinin backend tarafında Entity Framework ve LINQ teknolojilerini kullanarak CRUD API metotları oluşturma konusundaki hakimiyeti görülmek istenmektedir.
+    </p>
+    <p>
+        Bu amaçla, birinci bölümde oluşturulan sayfa üzerinde oluşturacağınız butonlar vasıtasıyla "Yeni Kayıt Ekleme", "Mevcut Kaydı Güncelleme", "Mevcut Kaydı Silme" ve bu işlemleri backend tarafında gerçekleştirecek API metotlarını yazmanız beklenmektedir.
+    </p>
+    <p>
+        Frontend'de, 3 işlem için de tabloda ilgili satırın dinamik şekilde eklenmesi/güncellenmesi/silinmesi <u>istenmektedir</u>. İşlem sonrası sayfanın yeniden yüklenmesi veya tüm verinin yeniden çekilmesi suretiyle tablonun güncellenmesi <u>istenmemektedir</u>.
+    </p>
+    <p>Ekran geliştirmesi sırasında sadece JavaScript, HTML DOM elementleri ve CSS kullanılabilir. Herhangi bir framework ve hazır UI elementi kullanılmayacaktır.</p>
+    <p>Consents metoduna erişim için User/Authenticate metodunu kullanabilirsiniz. Kullanıcı adı ve şifre için <code>Program.cs</code> dosyasına bakınız.</p>
+    <p>Kolay gelsin,</p>
+    <p>Bilmed</p>
+</body>
+</html>

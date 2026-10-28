@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "CadetTest": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:44338;http://localhost:26173",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
